@@ -41,8 +41,10 @@
 2. Приложите в файл README.md текст использованных команд в GitHub
 
 Ответ:
-1. ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/adm.jpg)
-2. sudo apt install postgresql
+1.
+ ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/adm.jpg)
+2.
+sudo apt install postgresql
 wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
 dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
 sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
