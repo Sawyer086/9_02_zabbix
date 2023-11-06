@@ -42,7 +42,7 @@
 
 Ответ:
 1.
- ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/adm.jpg)
+ ![1]
 2.
 sudo apt install postgresql
 wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
