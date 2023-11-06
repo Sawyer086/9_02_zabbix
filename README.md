@@ -42,7 +42,9 @@
 
 Ответ:
 1.
+
  ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/adm.jpg)
+ 
 2.
 sudo apt install postgresql
 
