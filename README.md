@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Punin Sergey`
+![image](https://github.com/Sawyer086/9_02_zabbix/assets/145470451/e7419c90-804c-4a4f-9673-4ab0d085f572)# Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Punin Sergey`
 
 Цели задания
 Научиться устанавливать Zabbix Server c веб-интерфейсом
@@ -41,7 +41,21 @@
 2. Приложите в файл README.md текст использованных команд в GitHub
 
 Ответ:
-![1]()
+1. ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/adm.jpg)
+2. sudo apt install postgresql
+wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
+dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+sudo apt update
+sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+sudo systemctl status zabbix-server.service
+sudo -u postgres createuser --pwprompt zabbix
+sudo -u postgres createdb -O zabbix zabbix
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+sudo nano /etc/zabbix/zabbix_server.conf
+systemctl restart zabbix-server zabbix-agent apache2
+systemctl status zabbix-server zabbix-agent apache2
+![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/status.jpg)
 
 ---
 
