@@ -40,7 +40,7 @@
 2. Приложите в файл README.md текст использованных команд в GitHub
 
 Ответ:
-![1](https://github.com/Sawyer086/9_01_monitoring/blob/main/1.jpg)
+![1]()
 
 ---
 
@@ -61,7 +61,7 @@
 4. Приложите в файл README.md текст использованных команд в GitHub
 
 Ответ:
-![1](https://github.com/Sawyer086/9_01_monitoring/blob/main/2.jpg)
+![1]()
 
 Задание 3*
 Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
