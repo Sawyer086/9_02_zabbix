@@ -42,7 +42,7 @@
 
 Ответ:
 1.
- ![1]
+ ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/adm.jpg)
 2.
 sudo apt install postgresql
 
@@ -69,6 +69,7 @@ sudo nano /etc/zabbix/zabbix_server.conf
 systemctl restart zabbix-server zabbix-agent apache2
 
 systemctl status zabbix-server zabbix-agent apache2
+
 ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/status.jpg)
 
 ---
