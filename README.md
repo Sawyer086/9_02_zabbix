@@ -113,6 +113,8 @@ tail -f /var/log/zabbix/zabbix_agentd.log
 
 ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/2%20machines.jpg)
 ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/latest%20data.jpg)
+
+Непонятно откуда взялся ip адрес 214, когда ip адрес сервера 215. Агент успешно подключен к серверу 215 и передает данные.
 ![1](https://github.com/Sawyer086/9_02_zabbix/blob/main/logs.jpg)
 
 Задание 3*
