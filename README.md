@@ -94,6 +94,23 @@ systemctl status zabbix-server zabbix-agent apache2
 4. Приложите в файл README.md текст использованных команд в GitHub
 
 Ответ:
+
+wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
+
+dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+
+apt update
+
+apt install zabbix-agent
+
+systemctl restart zabbix-agent
+
+systemctl enable zabbix-agent
+
+cat /var/log/zabbix/zabbix_agentd.log
+
+tail -f /var/log/zabbix/zabbix_agentd.log
+
 ![1]()
 
 Задание 3*
